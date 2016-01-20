@@ -1,0 +1,17 @@
+﻿前置作業
+  把 [ WEB_D3BubblesTest ]資料夾放在C槽下
+
+確認裡面要有
+  A.index.htm
+  B.links.json
+  C.nodes.json
+  D.WordCloud.png
+
+執行步驟
+  0.命令提示字元
+  1.輸入'cd C:\WEB_D3BubblesTest'
+  2.輸入'python -m SimpleHTTPServer'
+  3.打開Chrome 輸入'http://localhost:8000/'
+
+D3.js詳細說明內容:
+https://github.com/mbostock/d3/wiki/API--%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C
