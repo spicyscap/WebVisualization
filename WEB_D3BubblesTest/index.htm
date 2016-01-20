@@ -28,11 +28,11 @@
 					
 	
 					
-		svg.append('svg:image')
-					.attr('xlink:href', 'WCloud.png')
-					.attr("width", "100%")
-					.attr("height", "100%")
-					.attr("opacity", 0.8);					
+        svg.append('svg:image')
+                    .attr('xlink:href', 'WCloud.png')
+                    .attr("width", "100%")
+                    .attr("height", "100%")
+                    .attr("opacity", 0.8);					
 					
 /* Build the directional arrows for the links/edges */
         svg.append("svg:defs")
@@ -73,7 +73,7 @@ function makeDiag(error, nodes, links, table) {
                     .linkDistance([50]) /*沒差*/
                     .charge([-1700])/*重要參數*/
                     .gravity(0.4)/*重要參數*/
-					.friction([0.9])
+                    .friction([0.9])
                     .start();
     /* Draw the edges/links between the nodes */
     var edges = svg.selectAll("line")
